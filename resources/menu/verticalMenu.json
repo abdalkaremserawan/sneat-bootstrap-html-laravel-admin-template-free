@@ -91,47 +91,6 @@
       ]
     },
     {
-      "name": "Front Pages",
-      "icon": "menu-icon icon-base bx bx-store",
-      "slug": "front-pages",
-      "badge": [
-        "label-primary fs-tiny",
-        "Pro"
-      ],
-      "submenu": [
-        {
-          "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/front-pages/landing",
-          "name": "Landing",
-          "slug": "front-pages-landing",
-          "target": "_blank"
-        },
-        {
-          "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/front-pages/pricing",
-          "name": "Pricing",
-          "slug": "front-pages-pricing",
-          "target": "_blank"
-        },
-        {
-          "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/front-pages/payment",
-          "name": "Payment",
-          "slug": "front-pages-payment",
-          "target": "_blank"
-        },
-        {
-          "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/front-pages/checkout",
-          "name": "Checkout",
-          "slug": "front-pages-checkout",
-          "target": "_blank"
-        },
-        {
-          "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/front-pages/help-center",
-          "name": "Help Center",
-          "slug": "front-pages-help-center",
-          "target": "_blank"
-        }
-      ]
-    },
-    {
       "name": "Laravel Crud",
       "icon": "menu-icon icon-base bx bxl-php",
       "slug": "laravel-example",
@@ -162,6 +121,7 @@
         "Pro"
       ]
     },
+
     {
       "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/app/chat",
       "name": "Chat",
@@ -265,7 +225,13 @@
       "menuHeader": "Components"
     },
     {
-      "name": "Cards",
+      "name": "Categories",
+      "icon": "menu-icon icon-base bx bx-collection",
+      "slug": "categories.index",
+      "url": "categories"
+    },
+       {
+      "name": "cards",
       "icon": "menu-icon icon-base bx bx-collection",
       "slug": "cards-basic",
       "url": "cards/basic"
@@ -446,7 +412,7 @@
     {
       "url": "tables/basic",
       "icon": "menu-icon icon-base bx bx-table",
-      "name": "Tables",
+      "name": "tables",
       "slug": "tables-basic"
     },
     {
